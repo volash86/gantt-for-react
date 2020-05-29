@@ -5,14 +5,14 @@
 [![Build Status](https://travis-ci.org/hustcc/gantt-for-react.svg?branch=master)](https://travis-ci.org/hustcc/gantt-for-react) [![npm](https://img.shields.io/npm/v/gantt-for-react.svg?style=flat-square)](https://www.npmjs.com/package/gantt-for-react) [![npm](https://img.shields.io/npm/dt/gantt-for-react.svg?style=flat-square)](https://www.npmjs.com/package/gantt-for-react) [![npm](https://img.shields.io/npm/l/gantt-for-react.svg?style=flat-square)](https://www.npmjs.com/package/gantt-for-react)
 
 
-# 1. install
+# 1. Install
 
 ```sh
 npm install gantt-for-react
 ```
 
 
-# 2. usage
+# 2. Usage
 
 Online demo see [http://git.hust.cc/gantt-for-react/](http://git.hust.cc/gantt-for-react/).
 
@@ -34,7 +34,7 @@ import ReactGantt from 'gantt-for-react';
 
 Or you can see the code [here](https://github.com/hustcc/gantt-for-react/blob/master/demo/GanttComponent.jsx#L51).
 
-# 3. component props
+# 3. Component props
 
  - **`tasks`** (required, array)
 
@@ -55,7 +55,7 @@ The popo html function, can be a function that returns html or a simple html str
 And **4 event function props**: `onClick`, `onDateChange`, `onProgressChange`, `onViewChange`. Document can see [here](https://frappe.github.io/gantt/).
 
 
-# 4. screenshot
+# 4. Screenshot
 
 ![screenshot](demo/screenshot.png)
 
